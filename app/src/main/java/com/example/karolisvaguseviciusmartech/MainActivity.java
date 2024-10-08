@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         button = findViewById(R.id.button);
         buttonColor = findViewById(R.id.buttonColor);
- 
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
